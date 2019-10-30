@@ -67,6 +67,7 @@ Or You can use [servo](http://serveo.net/) to expose local servers to the intern
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNCKU-CCS%2FTOC-Project-2020.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNCKU-CCS%2FTOC-Project-2020?ref=badge_shield)
 
 ## Usage
 The initial state is set to `user`.
@@ -89,3 +90,6 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 Flask Architecture ❤️ [@Sirius207](https://github.com/Sirius207)
 
 [Line line-bot-sdk-python](https://github.com/line/line-bot-sdk-python/tree/master/examples/flask-echo)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNCKU-CCS%2FTOC-Project-2020.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNCKU-CCS%2FTOC-Project-2020?ref=badge_large)
