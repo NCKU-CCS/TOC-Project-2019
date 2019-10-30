@@ -9,7 +9,7 @@ More details in the [Slides]() and [FAQ](https://hackmd.io/s/B1Xw7E8kN)
 ## Setup
 
 ### Prerequisite
-* Python 3
+* Python 3.6
 * Pipenv
 * Facebook Page and App
 * HTTPS Server
@@ -27,6 +27,8 @@ pipenv shell
 
 * pygraphviz (For visualizing Finite State Machine)
     * [Setup pygraphviz on Ubuntu](http://www.jianshu.com/p/a3da7ecc5303)
+	* [Note: MAC OS Install error](https://github.com/pygraphviz/pygraphviz/issues/100)
+
 
 #### Secret Data
 You should generate a `.env` file to set Environment Variables refer to our `.env.sample`.
@@ -35,6 +37,14 @@ Otherwise, you might not be able to run your code.
 
 #### Run Locally
 You can either setup https server or using `ngrok` as a proxy.
+
+#### a. Ngrok installation
+* [Windows, Mac, Linux](https://ngrok.com/download)
+
+or you can use Homebrew (MAC)
+```sh
+brew cask install ngrok
+```
 
 **`ngrok` would be used in the following instruction**
 
@@ -49,6 +59,11 @@ After that, `ngrok` would generate a https URL.
 ```sh
 python3 app.py
 ```
+
+#### b. Servo
+
+Or You can use [servo](http://serveo.net/) to expose local servers to the internet.
+
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
@@ -67,7 +82,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 
 
 ## Reference
-[Pipenv](https://medium.com/@chihsuan/pipenv-更簡單-更快速的-python-套件管理工具-135a47e504f4) ❤️ [chihsuan](https://github.com/chihsuan)
+[Pipenv](https://medium.com/@chihsuan/pipenv-更簡單-更快速的-python-套件管理工具-135a47e504f4) ❤️ [@chihsuan](https://github.com/chihsuan)
 
 [TOC-Project-2019](https://github.com/winonecheng/TOC-Project-2019) ❤️ [@winonecheng](https://github.com/winonecheng)
 
